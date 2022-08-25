@@ -1,3 +1,5 @@
+![Screenshot Tugas-1](https://user-images.githubusercontent.com/83440868/186586025-be13c831-27d8-4fb5-90ad-3e91878c6bd1.JPG)
+
 Resume Materi KMReact - Version Control and Branch Management (Git)
 
 3 poin utama yang dipelajari dari materi tersebut adalah:
