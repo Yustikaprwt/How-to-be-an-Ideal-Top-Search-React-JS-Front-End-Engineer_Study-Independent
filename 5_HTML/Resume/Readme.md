@@ -1,0 +1,11 @@
+Resume materi HTML
+
+Adapun 3 poin penting dari materi HTML adalah sebagai berikut:
+1. Pengertian mengenai Frontend, dan apa saja komponen-komponen dari Frontend
+Frontend merupakan bagian dari suatu website yang dapat dilihat atau dapat berinteraksi dengan pengguna secara langsung. Pada frontend, terdapat 3 komponen penting yaitu HTML (Hypertext Markup Language), CSS (Cascading Style Sheets), dan Javascript.
+
+2. Pengertian dari HTML dan bagaimana cara HTML bekerja
+HTML (Hypertext Markup Language) merupakan sebuah standar yang digunakan para developer untuk menampilkan sebuah website yang nantinya akan berinteraksi dengan para pengguna. HTML bekerja untuk membuat komponen dari halaman website yang dibuat menjadi terstruktur, HTML juga bekerja untuk menampilkan isi dari halaman website, dan yang paling utama adalah HTML dapat bekerja untuk mempublikasikan halaman website yang telah dirancang komponen dan ditampilkan isinya tersebut secara online, sehingga dapat diakses secara luas oleh para pengguna.
+
+3. Dokumentasi HTML, tag pada HTML, Styling, dan List
+Pada HTML terdapat 5 dokumentasi awal, yaitu doctype, tag HTML, tag head, tag title, dan tag body. Doctype berperan untuk mendefinisikan file tempat dimana kita menuliskan HTML tersebut, sedangkan tag HTML berperan sebagai root dari halaman website terseut, sehingga dapat dikatakan bahwa tag-tag lainnya yaitu head, tittle, dan body berada di tag HTML. Kemudian terdapat tag head, tag head berperan untuk memberikan informasi tentang dokumen yang dibuat, dan title berperan untuk menentukan judul dokumen yang akan kita buat pada website tersebut. Dan untuk tag body merupakan isi konten dari halaman website tersebut. Selain dokumentasi, juga terdapat tag pada HTML seperti tag heading dan paragraf yang berperan untuk mengatur jenis penulisan pada paragram tersebut, seperti menentukan heading ataupun paragraf. Terdapat juga tag link yang dapat digunakan untuk memasukan link pada halaman website, dan tag image untuk memasukan gambar pada website. Selain itu juga terdapat styling pada HTML yang berperan untuk mengatur style pada halaman website yang akan dibuat, seperti gaya penulisan huruf yang digunakan. Dan terdapat juga list yang berfungsi untuk menampilkan data secara berurutan, yang dimana kita juga dapat menentukan icon yang ingin digunakan dalam membuat urutan tersebut.
