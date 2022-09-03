@@ -1,0 +1,56 @@
+a {
+    color: rgba(56, 55, 55, 0.897) !important;
+}
+
+.nav-link {
+    font-size: 13px !important;
+}
+
+.text-simple {
+    margin-top: 50px;
+    color:rgba(56, 55, 55, 0.897);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.text-Integer-Cursus {
+    color:black;
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 13px;
+}
+
+.container1 {
+    margin-top: 80px;
+}
+
+p {
+    color:black;
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 12px;
+    margin-left: 30px;
+}
+
+.col > img {
+    height: 50px;
+    width: 50px;
+
+}
+
+.handphone > h1 {
+    margin-top: 150px;
+    margin-left: 50px;
+    height: 155px;
+}
+
+.handphone > p {
+    padding: 15px;
+}
+
+.handphone > ul >li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+footer {
+    background-color: rgb(39, 38, 38);
+    color: white;
+}
