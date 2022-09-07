@@ -1,0 +1,8 @@
+2. a. Jelaskan kenapa baris 21,233,23 tidak dapat tampil?
+Jawab: Baris 21, 22, dan 23 tidak dapat ditampilkan karena pada baris ke 21 menjelaskan bahwa perintah untuk mencetak kalimat dapat dijalankan apabila kondisi dari variabel "terdaftar" di baris 4 berada di dalam kondisi true/benar. Sedangkan pada baris ke 4 variabel "terdaftar" bernilai false/salah. Sehingga hasil running program tidak dapat di tampilkan.
+
+b. Jelaskan kenapa deklarasi pada baris 26 menyebabkan error?
+Jawab: Deklerasi pada baris 26 menyebabkan error karena variabel "nama" ingin diubah valuenya menjadi value yang sama dengan variabel "b", tetapi variabel "nama" sendiri menggunakan variabel const, yang dimana variabel const ini tidak dapat diubah datanya atau bersifat konstan. Sehingga ketika value dari "nama" ini ingin diubah menyebabkan error.
+
+c. Dengan melakukan komen pada baris ke-26, apakah baris 28 dapat di eksekusi? Jelaskan
+Jawab: Ketika melakukan komen pada baris ke 26, baris 28 tidak dapat dieksekusi karena variabel "asal" tidak teridentifikasi, yang dimana hal tersebut dikarenakan pada baris ke 28 tidak termasuk ke dalam function yang sama dengan variabel "asal"
