@@ -15,9 +15,9 @@ class mobil extends kendaraan {
 
 void main() {
     mobilcepat = new mobil();
-    mobilcepat.berjalan();
-    mobilcepat.berjalan();
-    mobilcepat.berjalan();
+    for(let i = 0; i < 3; i++){
+        document.write(mobilcepat.berjalan())
+    }
 
     mobillamban = new mobil();
     mobillamban.berjalan();

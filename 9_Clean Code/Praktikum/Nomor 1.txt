@@ -1,18 +1,12 @@
 Berapa banyak kekurangan dalam penulisan kode tersebut?
-Jawaban: 5 kesalahan
+Jawaban: 2 kesalahan
 
 Bagian mana saja terjadi kekurangan tersebut?
 Jawaban: 
-- Pada penamaan deklarasi class user.
-- Pada bagian variabel var.
-- Pada penamaan deklarasi class userservice.
-- Menambahkan keterangan array pada user.
-- Pada bagian pemanggilan fungsi userid.
+- Pada penamaan deklarasi class user dan userservice
+- Pada penamaan fungsi getalluser dan getuserbyid
 
 Tulskan alasan dari tiap kekurangan tersebut?
 Jawaban: 
-- Seharusnya pada penamaan deklarasiclass ditulis dengan format Uppercase.
-- Setiap variabel var, yaitu id, username, dan password tidak diberikan keterangan datanya.
-- Seharusnya pada penamaan deklarasi class ditulis dengan format penulisan camelCase.
-- Seharusnya tidak perlu menambahkan kurung array pada penulisan user.
-- Fungsi userid belum dibuat, sehingga tidak dapat dipanggil.
+- Seharusnya pada penamaan deklarasi class ditulis dengan format Uppercase.
+- Seharusnya pada penamaan fungsi ditulis dengan format penulisan camelCase.
