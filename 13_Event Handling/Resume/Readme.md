@@ -7,16 +7,16 @@ State sendiri merupakan data yang private pada sebuah component, yang dimana dat
 2. Stateful component dan Stateless component
 Stateful component sendiri memiliki sebuah state, dimana component ini dibuat dengan class. Sedangkan stateless component tidak memiliki sebuah state, tetapi hanya prop. Dan pada stateless component umunya dibuat menggunakan function, bukan menggunakan class, karena kode yang dimiliki lebih ringkas. Terdapat beberapa perbedaan antara stateful component dan stateless component, antara lain sebagai berikut:
 
-Stateless component -> Tidak memahami aplikasi.
+- Stateless component -> Tidak memahami aplikasi.
 Statefull component -> Memahami aplikasi.
 
-Stateless component -> Tidak mengambil data melalui data fetching.
+- Stateless component -> Tidak mengambil data melalui data fetching.
 Statefull component -> Mengambil data melalui data fetching.
 
-Stateless component -> Tujuan utamanya adalah visualisasi.
+- Stateless component -> Tujuan utamanya adalah visualisasi.
 Statefull component -> Tujuan utamanya adalah interaksi antara user dengan visualisasi, atau menggunakan logika.
 
-Stateless component -> Dapat digunakan kembali datanya, karena lebih terfokuskan dengan desain.
+- Stateless component -> Dapat digunakan kembali datanya, karena lebih terfokuskan dengan desain.
 Statefull component -> Tidak dapat digunakan kembali datanya, karena menggunakan logika.
 
 3. Handling Events
