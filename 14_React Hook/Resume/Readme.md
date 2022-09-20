@@ -1,0 +1,16 @@
+Resume materi React Hook
+
+Adapun 3 poin utama yang didapatkan dari pembelajaran mengenai materi React Hook antara lain adalah sebagai berikut:
+
+1. Pengertian dari React Hooks, Hooks pada React, aturan pada Hooks
+- Hooks merupakan fitur terbaru yang mulai terdapat pada React versi 16.8. Dengan menggunakan Hooks, kita dapat menggunakan state dan fitur React yang lain, tanpa perlu menulis sebuah class. Atau bisa disebut juga bahwa Hooks merupakan sebuah fungsi yang dapat dikaitkan dengan state atau fitur-fitur lifecycle React yang terdapat pada function component. Dengan menggunakan React Hooks, dapat mengatasi kesulitan dalam menggunakan stateful logic antar komponen. Dan lebih mempermudah dalam memahami komponen kompleks.
+- Adapun beberapa Hooks dasar yang sering digunakan antara lain adalah useState dan useEffect, kemudian terdapat beberapa Hooks tambahan yaitu useReducer, useCallback, useMemo, useRef, useImperativeHandle, useLayoutEffect, dan useDebugValue.
+- Adapun aturan yang dimiliki Hooks adalah, jangan memanggil Hooks dalam loops, conditions, atau nested functions, tetapi gunakan Hooks di tingkat atas dari fungsi React yang telah dibuat. Atau panggil Hooks dari komponen-komponen fungsi React atau panggil Hooks dari custom Hooks, atau Hooks yang kita buat sendiri. 
+
+2. useState dan useEffect pada komponen
+- Menggunakan state pada stateless component dapat disebut sebagai function components. Karena Hooks tidak dapat digunakan di dalam class, tetapi digunakan sebagai pengganti dari class tersebut. Dan pada function component, tidak perlu menuliskan this.state seperti ketika menggunakan class, dengan gantinya, kita hanya perlu memanggil Hook useState secara langsung pada komponen yang kita miliki.Berbeda dengan class, ketika menggunakan state, tidak harus berbentuk sebuah objek, tetapi juga dapat menyimpan angka atau string.
+- useState adalah sebuah Hook yang digunakan untuk mengembalikan niai dari state dan fungsi yang bisa digunakan untuk mengubah nilai tersebut, fungsi dari useState sendiri sebenarnya sama seperti this.state yang diberikan pada sebuah class, tetapi lebih simpel dalam penggunaannya.
+- useEffect adalah sebuah effect Hook yang dapat melakukan side effect, yaitu pemanggilan data. Yang dimana fungsi dari useEffect sendiri mirip seperti componentDidMount dan componentDidUpdate. 
+
+3. Membuat custom Hooks 
+Yang dimaksudkan dengan custom Hooks adalah membuat Hook sendiri dan memungkinkan kita untuk mengekstrak komponen logika ke dalam fungsi yang dapat digunakan lagi. Sebuah custom Hooks adalah fungsi JavaScript yang namanya dimulai dengan "use" dan dapat digunakan untuk memanggil Hooks lain. Berbeda dengan komponen React, sebuah custom Hooks tidak membutuhkan tanda yang spesifik. Dengan menggunakan custom Hooks sendiri dapat memberikan fleksibilitas berbagai logika yang tidak mungkin di komponen React sebelumnya. Penulisan custom Hooks yang mencakup berbagai penggunaan kasus-kasus seperti form handling, animasi, dekleratif, dan masih banyak lagi. 

@@ -1,4 +1,4 @@
- import { RiCloseCircleLine } from "react-icons/ri";
+import { RiCloseCircleLine } from "react-icons/ri";
 import { RiCheckboxCircleLine } from "react-icons/ri";
 
 const TodoList = (props) => {
