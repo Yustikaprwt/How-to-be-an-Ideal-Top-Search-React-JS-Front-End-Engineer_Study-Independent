@@ -1,5 +1,8 @@
 Resume Materi Pembelajaran Deployment
 
+<img width="554" alt="surge" src="https://user-images.githubusercontent.com/83440868/195524823-d2c6af9e-fab2-4917-b57b-cfe2bdacf49e.png">
+![netlify](https://user-images.githubusercontent.com/83440868/195524828-21e4e099-f0db-449b-a85a-91266b89453a.jpg)
+
 Adapun 3 poin utama dari pembelajaran materi Deployment, antara lain adalah sebagai berikut:
 1. Build Pada React App
 - Dalam mengembangkan aplikasi React, Build sangat disarankan, karena dapat membuat performa aplikasi dapat menjadi lebih cepat dan ringan, tidak seperti sebelum di Build yaitu lebih lambat. Dalam men-deploy suatu aplikasi pun harus menggunakan versi produksi.
@@ -19,6 +22,9 @@ Adapun 3 poin utama dari pembelajaran materi Deployment, antara lain adalah seba
 
 3. Deployment menggunakan Netlify
 - Netlify merupakan platform penyedia layanan build tools sekaligus Continous Deployment, atau platform untuk hosting aplikasi yang kita miliki secara gratis selain Surge. Netlify telah terintegrasi dengan Git Host yang populer seperti Github, Gitlab, dan Bitbucket. 
+
+![netlify](https://user-images.githubusercontent.com/83440868/195562648-e19dcecf-841e-4582-b966-2d50bafd196e.j
+
 - Untuk mendeploy aplikasi yang dimiliki menggunakan Netlify dapat dengan langkah-langkah sebagai berikut, yaitu:
 1. Buat akun Netlify melalui webiste Netlify.
 2. Kemudian install Netlify CLI pada terminal dari aplikasi yang kita miliki dengan menggunakan syntax "npm install netlify-cli -g".
