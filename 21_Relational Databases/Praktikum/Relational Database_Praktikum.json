@@ -1,0 +1,73 @@
+{
+  "resource_version": 28,
+  "metadata": {
+    "version": 3,
+    "sources": [
+      {
+        "name": "kampus_merdeka",
+        "kind": "postgres",
+        "tables": [
+          {
+            "table": {
+              "name": "anggota",
+              "schema": "public"
+            },
+            "array_relationships": [
+              {
+                "name": "OneToMany_Relationship",
+                "using": {
+                  "manual_configuration": {
+                    "column_mapping": {
+                      "id": "id_anggota"
+                    },
+                    "insertion_order": null,
+                    "remote_table": {
+                      "name": "keterangan",
+                      "schema": "public"
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "table": {
+              "name": "keterangan",
+              "schema": "public"
+            },
+            "object_relationships": [
+              {
+                "name": "OneToOne_Relationship",
+                "using": {
+                  "manual_configuration": {
+                    "column_mapping": {
+                      "id": "id"
+                    },
+                    "insertion_order": null,
+                    "remote_table": {
+                      "name": "anggota",
+                      "schema": "public"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "configuration": {
+          "connection_info": {
+            "database_url": {
+              "from_env": "PG_DATABASE_URL"
+            },
+            "isolation_level": "read-committed",
+            "use_prepared_statements": false
+          },
+          "extensions_schema": "kampus_merdeka"
+        },
+        "customization": {
+          "naming_convention": "hasura-default"
+        }
+      }
+    ]
+  }
+}
