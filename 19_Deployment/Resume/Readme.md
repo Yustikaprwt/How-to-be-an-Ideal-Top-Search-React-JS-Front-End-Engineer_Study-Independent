@@ -1,8 +1,5 @@
 Resume Materi Pembelajaran Deployment
 
-<img width="554" alt="surge" src="https://user-images.githubusercontent.com/83440868/195524823-d2c6af9e-fab2-4917-b57b-cfe2bdacf49e.png">
-![netlify](https://user-images.githubusercontent.com/83440868/195524828-21e4e099-f0db-449b-a85a-91266b89453a.jpg)
-
 Adapun 3 poin utama dari pembelajaran materi Deployment, antara lain adalah sebagai berikut:
 1. Build Pada React App
 - Dalam mengembangkan aplikasi React, Build sangat disarankan, karena dapat membuat performa aplikasi dapat menjadi lebih cepat dan ringan, tidak seperti sebelum di Build yaitu lebih lambat. Dalam men-deploy suatu aplikasi pun harus menggunakan versi produksi.
@@ -12,8 +9,6 @@ Adapun 3 poin utama dari pembelajaran materi Deployment, antara lain adalah seba
 2. Deployment menggunakan Surge
 - Deployment merupakan suatu kegiatan yang bertujuan untuk menyebarkan atau mengekspos aplikasi yang telah kita buat, agar dapat diakses secara publik atau dapat disebut juga hosting. Dalam mendeploy suatu aplikasi, dapat menggunakan beberapa layanan penerbit website statik secara gratis yang di sediakan untuk Front-End Developers, yang paling populer di antaranya adalah Surge dan Netlify.
 
-<img width="554" alt="surge" src="https://user-images.githubusercontent.com/83440868/195560735-e4a3a246-a5fe-4807-a583-721887eeb702.png">
-
 - Surge adalah layanan penerbit website statik yang menerima file HTML, CSS, dan JS. Surge merupakan aplikasi hosting yang mudah digunakan, untuk mendeploy aplikasi yang dimiliki menggunakan Surge dapat dengan langkah-langkah sebagai berikut, yaitu:
 1. Install Node versi paling terbaru pada sistem operasi yang dimiliki
 2. Install Surge pada terminal dari aplikasi yang kita miliki menggunakan syntax "npm install --global surge".
@@ -22,8 +17,6 @@ Adapun 3 poin utama dari pembelajaran materi Deployment, antara lain adalah seba
 
 3. Deployment menggunakan Netlify
 - Netlify merupakan platform penyedia layanan build tools sekaligus Continous Deployment, atau platform untuk hosting aplikasi yang kita miliki secara gratis selain Surge. Netlify telah terintegrasi dengan Git Host yang populer seperti Github, Gitlab, dan Bitbucket. 
-
-![netlify](https://user-images.githubusercontent.com/83440868/195562648-e19dcecf-841e-4582-b966-2d50bafd196e.j
 
 - Untuk mendeploy aplikasi yang dimiliki menggunakan Netlify dapat dengan langkah-langkah sebagai berikut, yaitu:
 1. Buat akun Netlify melalui webiste Netlify.
