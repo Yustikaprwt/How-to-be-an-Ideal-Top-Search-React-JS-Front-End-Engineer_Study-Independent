@@ -1,0 +1,2 @@
+Screenshot Tampilan GraphQL Subscription
+<img width="960" alt="Screenshot Praktikum GraphQL Subscription" src="https://user-images.githubusercontent.com/83440868/197372180-dc7725ab-9a46-460c-b61d-ec3035c03c9d.png">
